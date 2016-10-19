@@ -21,7 +21,7 @@ func main() {
 
 	http.Handle("/home", Routes)
 	http.ListenAndServe(":"+port, nil)
-	log.Println("Listening...")
+	log.Println("Listening now...")
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
