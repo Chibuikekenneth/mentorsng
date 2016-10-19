@@ -17,9 +17,9 @@ func main() {
 	Routes := mux.NewRouter()
 	Routes.HandleFunc("/home", home)
 
-	http.Handle("/public/", http.StripPrefix("/public/", http.FileServer(http.Dir("public"))))
+	http.Handle("/", http.StripPrefix("/", http.FileServer(http.Dir("public"))))
 
-	http.Handle("/", Routes)
+	http.Handle("/home", Routes)
 	http.ListenAndServe(":"+port, nil)
 	log.Println("Listening...")
 }
