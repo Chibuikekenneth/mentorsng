@@ -38,8 +38,8 @@
 
 
         $("#btn-signup").click(function() {
-                alert("somehting happens")
-            });
+            addClass("signup")
+        });
 
     });
 })(jQuery);
