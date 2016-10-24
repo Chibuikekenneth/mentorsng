@@ -46,8 +46,9 @@ func main() {
 	http.Handle("/", http.StripPrefix("/", http.FileServer(http.Dir("public"))))
 
 	http.Handle("/s", Routes)
+
 	http.ListenAndServe(":"+port, nil)
-	log.Println("Listening...")
+	log.Println("Listening now...")
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
