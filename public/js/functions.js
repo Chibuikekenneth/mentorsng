@@ -38,7 +38,10 @@
 
 
         $("#btn-signup").click(function() {
-            addClass("signup")
+            $("#myform").show();
+
+
+
         });
 
     });
