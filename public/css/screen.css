@@ -3143,7 +3143,7 @@ textarea:focus {
     height: 40px;
     line-height: 40px;
     padding: 0 10px;
-    display: inline-block;
+    display: none;
     font-size: 16px;
     letter-spacing: 0.04em;
     font-weight: 700;
@@ -3154,7 +3154,7 @@ textarea:focus {
 .destination-box .boats-qty::before {
     content: "";
     font-family: icomoon;
-    display: inline-block;
+    display: none;
     margin-right: 10px;
     font-weight: 500;
 }
