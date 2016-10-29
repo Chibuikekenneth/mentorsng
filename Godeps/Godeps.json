@@ -2,9 +2,6 @@
 	"ImportPath": "github.com/adesokanayo/mentorsng",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
-	"Packages": [
-		"./..."
-	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/go-sql-driver/mysql",
