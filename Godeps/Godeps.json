@@ -2,7 +2,15 @@
 	"ImportPath": "github.com/adesokanayo/mentorsng",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-198-g0b58b37",
+			"Rev": "0b58b37b664c21f3010e836f1b931e1d0b0b0685"
+		},
 		{
 			"ImportPath": "github.com/gorilla/context",
 			"Comment": "v1.1-7-g08b5f42",
@@ -12,6 +20,11 @@
 			"ImportPath": "github.com/gorilla/mux",
 			"Comment": "v1.1-21-gcf79e51",
 			"Rev": "cf79e51a62d8219d52060dfc1b4e810414ba2d15"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Comment": "v1.1-5-gfa5329f",
+			"Rev": "fa5329f913702981df43dcb2a380bac429c810b5"
 		}
 	]
 }
